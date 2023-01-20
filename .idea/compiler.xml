@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CICDPipelineStudent" />
         <module name="StudentDemoClass" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CICDPipelineStudent" target="17" />
       <module name="StudentDemoClass" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CICDPipelineStudent" options="-parameters" />
       <module name="StudentDemoClass" options="-parameters" />
     </option>
   </component>

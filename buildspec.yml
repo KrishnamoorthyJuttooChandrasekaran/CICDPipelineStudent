@@ -28,5 +28,5 @@ phases:
       - cat imagedefinitions.json
 artifacts:
   files:
-      - imagedefinitions.json
-      - target/StudentDemoClass-0.0.1-SNAPSHOT.jar
+    - imagedefinitions.json
+    - target/StudentDemoClass-0.0.1-SNAPSHOT.jar
